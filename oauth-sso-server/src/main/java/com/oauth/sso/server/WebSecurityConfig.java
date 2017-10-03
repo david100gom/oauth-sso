@@ -31,6 +31,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .formLogin()
                 .loginProcessingUrl("/login")
                 .loginPage("/loginForm")
+                .successForwardUrl("/home")
                 .permitAll()
                 .and()
             .csrf()

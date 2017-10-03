@@ -22,3 +22,4 @@ logging.level:
         boot: info
     org.hibernate:
         SQL: warn
+    com.oauth.sso.server: debug
